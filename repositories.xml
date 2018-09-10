@@ -1,0 +1,12 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>pcb-rnd-overlay</name>
+    <description>pcb-rnd overlay</description>
+    <homepage>https://github.com/metan-ucw/pcb-rnd-overlay</homepage>
+    <owner>
+      <email>metan@ucw.cz</email>
+      <name>Cyril Hrubis</name>
+    </owner>
+    <source type="git">https://github.com/metan-ucw/pcb-rnd-overlay.git</source>
+  </repo>
+</repositories>

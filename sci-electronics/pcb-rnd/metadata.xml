@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>metan@ucw.cz</email>
+    <name>Cyril Hrubis</name>
+  </maintainer>
+  <longdescription>
+   Fork of gEDA pcb; Printed Circuit Board editor
+  </longdescription>
+</pkgmetadata>
