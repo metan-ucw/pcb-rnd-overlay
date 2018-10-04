@@ -29,7 +29,7 @@ DEPEND="x11-libs/gtk+:2
 RDEPEND="${DEPEND}"
 
 src_configure() {
-	local myconf
+	local myconf=
 
 	if !(use gtk2); then
 		myconf="${myconf} --disable-hid_gtk2_gdk"
@@ -95,7 +95,7 @@ src_configure() {
 		myconf="${myconf} --disable-gd-jpg"
 	fi
 
-	./configure --prefix="" ${myconf}
+	./configure --prefix= --CC="$CHOST-gcc" --CFLAGS="$CFLAGS" ${myconf}
 }
 
 src_compile() {
